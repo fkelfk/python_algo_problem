@@ -1,8 +1,20 @@
+from distutils.command.build_scripts import first_line_re
+
+
+file_path = "/Users/junghoonlee/Documents/data/2-1/1/in1.txt"
+
+with open(file_path,'r') as f:
+    lines = f.readlines()
+    list = lines.split()
+print(list[0])
+
+'''
 n = 12
 m = n + 1
 num = 0
 k = 3
 list = []
+'''
 
 '''
 while num <= n:
