@@ -1,6 +1,6 @@
 # from distutils.command.build_scripts import first_line_re
 # 더이상 지원하지 않음
-import re
+import re 
 
 
 file_path = "/Users/junghoonlee/Documents/data/2-1/1/in1.txt"
